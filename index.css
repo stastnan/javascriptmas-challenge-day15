@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #282828;
+  --blue: #2892f9;
+  --red: #fb2f27;
+  --yellow: #fdfe29;
+}
+
+body {
+  height: 100%;
+}
+
+.rings {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.ring-1 {
+  background-color: var(--black);
+  width: 100%;
+  height: 100%;
+}
+
+.ring-2 {
+  background-color: var(--blue);
+  width: 75%;
+  height: 75%;
+}
+
+.ring-3 {
+  background-color: var(--red);
+  width: 65%;
+  height: 65%;
+}
+
+.bullseye {
+  background-color: var(--yellow);
+  width: 50%;
+  height: 50%;
+}
